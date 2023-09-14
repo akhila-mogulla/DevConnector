@@ -14,7 +14,7 @@ import org.hibernate.type.spi.TypeConfiguration;
 public class CustomIdGenerator extends SequenceStyleGenerator {
 	
 	public static final String VALUE_PREFIX_PARAMETER="valuePrefix";
-	public static final String VALUE_PREFIX_DEFAULT="";
+	public static final String VALUE_PREFIX_DEFAULT="%tY-%tM";
 	private String valuePrefix;
 	
 	public static final String DATE_FORMAT_PARAMETER="dateFormat";

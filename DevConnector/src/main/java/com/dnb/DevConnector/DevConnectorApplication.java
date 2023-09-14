@@ -21,11 +21,12 @@ public class DevConnectorApplication {
 
 	public static void main(String[] args) {
 		
-		ApplicationContext applicationContext = SpringApplication.run(DevConnectorApplication.class, args);
+		//ApplicationContext applicationContext = 
+		SpringApplication.run(DevConnectorApplication.class, args);
 		
-		RegisterUser registerUser = new RegisterUser();
+		//RegisterUser registerUser = new RegisterUser();
 	//	UserService userService =
-				applicationContext.getBean(UserService.class).createUser(registerUser);
+				//applicationContext.getBean(UserService.class).createUser(registerUser);
 		//ProfileService profileService = applicationContext.getBean(ProfileService.class);
 		
 		
